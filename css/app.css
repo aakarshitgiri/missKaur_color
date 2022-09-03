@@ -1139,9 +1139,10 @@ body #gradient #cssOutput {
     width: 100%;
     position: absolute;
     top: 64px;
+
     left: 0;
     margin: 0;
-    display: none;
+    display: none !important;
     background: var(--color-two);
     box-shadow: inset 0 10px 30px -10px rgba(0, 0, 0, .46)
 }
